@@ -1,0 +1,45 @@
+# Dependencies
+node_modules/
+lib/
+
+# Build outputs
+out/
+cache/
+artifacts/
+build/
+
+# Foundry
+contracts/out/
+contracts/cache/
+
+# Circuit build outputs
+circuits/src/*.r1cs
+circuits/src/*.sym
+circuits/src/*_js/
+circuits/src/*.wasm
+
+# NEVER commit these (security critical)
+*.zkey
+*.ptau
+*.key
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+*.log
+npm-debug.log*
+
+# Test coverage
+coverage/
+coverage.json
+lcov.info

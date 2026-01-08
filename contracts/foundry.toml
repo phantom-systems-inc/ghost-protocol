@@ -1,0 +1,22 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+solc = "0.8.20"
+optimizer = true
+optimizer_runs = 200
+
+# Remappings
+remappings = [
+    "@openzeppelin/contracts/=lib/openzeppelin-contracts/contracts/",
+    "forge-std/=lib/forge-std/src/",
+]
+
+[fmt]
+line_length = 100
+tab_width = 4
+bracket_spacing = false
+
+[doc]
+out = "docs"
+repository = "https://github.com/phantom-systems-inc/ghost-protocol"
